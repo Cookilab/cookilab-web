@@ -105,7 +105,7 @@ a { color: var(--brand-text); }
 }
 
 /* Store buttons */
-.stores { display: grid; gap: 10px; margin-bottom: 10px; }
+.stores { display: grid; gap: 10px; margin-bottom: 34px; }
 @media (min-width: 480px) { .stores { grid-template-columns: 1fr 1fr; } }
 .button {
   display: flex; align-items: center; justify-content: center; gap: 10px;
@@ -120,8 +120,6 @@ a { color: var(--brand-text); }
 .button svg { width: 22px; height: 22px; flex: none; }
 .button span { text-align: left; }
 .button small { display: block; font-weight: 500; font-size: 11px; opacity: .85; }
-.button.soon { opacity: .45; pointer-events: none; box-shadow: none; }
-.store-note { font-size: 13px; color: var(--muted); margin: 0 0 34px; text-align: center; }
 
 /* Note */
 .note {
